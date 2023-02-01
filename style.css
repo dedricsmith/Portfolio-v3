@@ -10,7 +10,7 @@
 	--clr-heading: #222;
 	--clr-body: #565656;
 	--clr-bg: #f3f3f3;
-	--clr-def: #e97307;
+	/* --clr-def: #e97307; */
 	--clr-def-2: #ffe250;
 	--clr-ftr: #070e27;
 	--clr-ftr-2: #666666;
@@ -220,8 +220,7 @@ label {
 	width: 100%;
 	height: 100%;
 	z-index: 999999;
-	background: url(assets/img/logo/Spinner.gif) center no-repeat
-		var(--clr-white);
+	background: url(assets/img/logo/Spinner.gif) center no-repeat var(--clr-white);
 	text-align: center;
 }
 
@@ -1128,9 +1127,9 @@ button.navbar-toggler:focus {
 	width: 440px;
 	height: 440px;
 	content: '';
-	background-image: -moz-linear-gradient(11deg, #c32b22 0%, #fdbb2d 100%);
+	/* background-image: -moz-linear-gradient(11deg, #c32b22 0%, #fdbb2d 100%);
 	background-image: -webkit-linear-gradient(11deg, #c32b22 0%, #fdbb2d 100%);
-	background-image: -ms-linear-gradient(11deg, #c32b22 0%, #fdbb2d 100%);
+	background-image: -ms-linear-gradient(11deg, #c32b22 0%, #fdbb2d 100%); */
 	z-index: -1;
 	transition: all 0.5s ease-in-out;
 	animation: ups-down 5s infinite ease-out;
